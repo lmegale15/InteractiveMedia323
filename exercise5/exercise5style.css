@@ -1,0 +1,91 @@
+
+h2 {
+	font-size: 105px;
+	color: black;
+}
+
+h2 {
+
+	display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.circle1{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	position: absolute;
+	margin-top: 350px;
+
+}
+
+.circle2{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 300px;
+}
+
+.circle3{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 600px;
+}
+
+body {
+
+	background: url('./image5/chat.png');
+}
+
+@media screen and (max-width: 1024px) {
+
+	body { background: url('./image5/BB.jpg'); }
+	h2 { font-size: 70px; color: white;}
+}
+
+@media screen and (max-width: 768px) {
+
+	body { background: url('./image5/BE.jpg'); }
+	h2 { font-size: 50px; }
+}
+
+@media screen and (max-width: 600px) {
+
+	body { background: url('./image5/B13.jpg'); }
+	h2 { font-size:20px; color: white;}
+}
+
+@media screen and (max-width: 480px) {
+
+	body { background: url('./image5/MHA.jpeg'); }
+	h2 { font-size: 10px; color: white; }
+}
+
+@media screen and (max-width: 320px) {
+
+	body { background: url('./image5/YOI.jpg'); }
+	h2 { font-size: 8px; color: white; }
+}
+
+
+
+
+
+
+
+
+
+
+
