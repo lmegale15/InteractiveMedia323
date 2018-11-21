@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	background-image: linear-gradient(white, #0099ff);
+	z-index: -1;
+	padding: 20px;
+}
+
+.phonebase {
+
+	background-color: lightblue;
+	width: 270px;
+	height: 500px;
+	margin: 0 auto;
+	border-radius: 20px;
+	z-index: 1;
+	
+}
+
+.phone2 {
+
+	background-color: rgba(000, 000, 000, 0.2);
+	width: 280px;
+	height: 500px;
+	margin: 0 auto;
+	border-radius: 20px;
+	z-index: 2; 
+	display: inline-block;
+	position: absolute;
+
+}
+
+.camerabase {
+
+width: 180px;
+height: 80px;
+display: inline-block;
+position: relative;
+background-color: black;
+z-index: 3;
+border-radius: 20px;
+margin-left: 18%;
+margin-top: 10%;
+}
+
+
+.reflec {
+
+	background-color: rgba(000, 000, 000, 0.2);
+	width: 280px;
+	height: 500px;
+	margin: 0 auto;
+	border-radius: 20px;
+	z-index: 2;	
+	margin-top: 54%;
+
+}
+
+.popperbase {
+
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	background-color: #004d80;
+	position: relative;
+	z-index: 3;
+	margin-left: 18%;
+	margin-top: 35%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
